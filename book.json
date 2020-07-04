@@ -1,0 +1,50 @@
+{
+  "title": "程序员面试宝典读书笔记",
+  "description": "CC150的读书笔记，主要是题解",
+  "author": "杨洪洋",
+  "language": "zh-hans",
+  "gitbook": "3.2.3",
+  "root": ".",
+  "styles": {
+    "website": "./assets/styles/website.css"
+  },
+
+  "plugins": [
+    "code",
+    "-search",
+    "search-pro",
+    "github",
+    "splitter",
+    "-sharing",
+    "sharing-plus",
+    "prism",
+    "-highlight",
+    "styles-less",
+    "toggle-chapters",
+    "multipart",
+    "expandable-chapters-small",
+    "back-to-top-button"
+  ],
+  "pluginsConfig": {
+    "github": {
+      "url": "https://github.com/yanghongyang/CC150-Reading-Notes"
+    },
+    "code": {
+      "copyButtons": true
+    },
+    "sharing": {
+      "facebook": false,
+      "twitter": false,
+      "weibo": true,
+      "qq": true,
+      "qzone": true,
+      "all": ["weibo", "qq", "qzone"]
+    },
+    "prism": {
+      "css": ["prismjs/themes/prism-solarizedlight.css"],
+      "lang": {
+        "flow": "typescript"
+      }
+    }
+  }
+}
